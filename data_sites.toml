@@ -1,0 +1,281 @@
+# cloudnet "fixed sites"
+
+[leipzig]
+location = "Leipzig"
+coordinates = [51.353410, 12.434639]
+institution = "TROPOS"
+network = "cloudnet"
+duration = ["2011-08", "2016-09"]
+
+[lindenberg]
+location = "Lindenberg"
+coordinates = [52.2105, 14.13]
+institution = "DWD"
+network = "cloudnet"
+duration = ["2004-04", "0"]
+
+[juelich]
+location = "Jülich"
+coordinates = [50.9086, 6.4134]
+institution = "IGMK"
+network = "cloudnet"
+duration = ["2010-08", "0"]
+
+[chilbolton]
+location = "Chilbolton"
+coordinates = [51.144445, -1.438747]
+institution = "CFARR"
+network = "cloudnet"
+duration = ["1999-05", "0"]
+
+[cabauw]
+location = "Cabauw"
+coordinates = [51.970383, 4.926250]
+institution = "Ceasar"
+network = "cloudnet"
+duration = ["2001-08", "0"]
+
+[mace]
+location = "Mace-Head"
+coordinates = [53.33, -9.90399]
+institution = "NUI"
+network = "cloudnet"
+duration = ["2009-02", "0"]
+
+[palaiseau]
+location = "Palaiseau"
+coordinates = [48.714730, 2.217460]
+institution = "SIRTA"
+network = "cloudnet"
+duration = ["2003-01", "0"]
+
+[potenza]
+location = "Potenza"
+coordinates = [40.60, 15.72]
+institution = "CNR-IMAA"
+network = "cloudnet"
+duration = ["2009-04", "0"]
+
+[sodankyla]
+location = "Sodankyla"
+coordinates = [67.363152, 26.641922]
+institution = "FMI"
+network = "cloudnet"
+duration = ["2012-05", "2014-06"]
+
+[barbados]
+location = "Deebles Point"
+coordinates = [13.162317, -59.428562]
+institution = "MPI-M"
+network = "cloudnet"
+duration = ["2016-01", "0"]
+
+## the cloudnet campaigns 
+
+[svalbard]
+location = "Ny-Ålesund"
+coordinates = [78.925259, 11.913133]
+institution = "IGMK"
+network = "cloudnet"
+duration = ["2016-04", "0"]
+
+[cyprus]
+location = "Limassol"
+coordinates = [34.681573, 33.032084]
+institution = "TROPOS"
+network = "cloudnet"
+duration = ["2016-10", "0"]
+
+[finland1]
+location = "Kenttarova"
+coordinates = [67.971146, 24.178303]
+institution = "FMI"
+network = "cloudnet"
+duration = ["2015-10", "2015-12"]
+
+[finland2]
+location = "Vehmasmaki"
+coordinates = [62.733369, 27.555418]
+institution = "FMI"
+network = "cloudnet"
+duration = ["2014-11", "2016-10"]
+
+
+
+# ARM Fixed sites
+[ENA]
+location = "Eastern North Atlantic"
+coordinates = [39.091578, -28.025650]
+institution = "ARM"
+network = "ARM"
+duration = ["2015-07", "0"]
+
+[TWP1]
+location = "Tropical Western Pacific Manus"
+coordinates = [-2.061011, 147.425397]
+institution = "ARM"
+network = "ARM"
+duration = ["1996-06", "2014-07"]
+
+[TWP2]
+location = "Tropical Western Pacific Naru"
+coordinates = [-0.521000, 166.916000]
+institution = "ARM"
+network = "ARM"
+duration = ["1998-10", "2009-02"]
+
+[TWP3]
+location = "Tropical Western Pacific Darwin"
+coordinates = [-12.424600, 130.891597]
+institution = "ARM"
+network = "ARM"
+duration = ["2002-03", "2015-01"]
+
+[SGP]
+location = "Southern Great Plains"
+coordinates = [36.605000, -97.485000]
+institution = "ARM"
+network = "ARM"
+duration = ["1998-10", "0"]
+
+[NSA]
+location = "North Slope of Alaska"
+coordinates = [71.323258, -156.615750]
+institution = "ARM"
+network = "ARM"
+duration = ["1998-03", "0"]
+
+# ARM_mobile campaigns
+
+[ascension]
+location = "Ascension Island"
+coordinates = [-7.966964, -14.349806]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2016-06", "2017-10"]
+
+[mcmurdo]
+location = "McMurdo"
+coordinates = [-77.849611, 166.728444]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2015-11", "2017-01"]
+
+[hyytiaelae]
+location = "Hyytiälä"
+coordinates = [61.843536, 24.287847]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2014-02", "2014-09"]
+
+[manacapuru]
+location = "Manacapuru"
+coordinates = [-3.212972, -60.598056]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2014-01", "2015-11"]
+
+[oliktok]
+location = "Oliktok Point"
+coordinates = [70.495247, -149.886883]
+institution = "AMF3"
+network = "ARM_mobile"
+duration = ["2015-08", "0"]
+
+[capecod]
+location = "Cape Cod"
+coordinates = [41.664059, -70.242290]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2012-06", "2013-06"]
+
+[maldives]
+location = "Gan Island, Maldives"
+coordinates = [-0.694149, 73.152771]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2011-09", "2012-03"]
+
+[ganges]
+location = "Ganges Valley"
+coordinates = [29.359400, 79.458131]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2011-05", "2012-03"]
+
+[steamboat]
+location = "Steamboat Springs"
+coordinates = [40.455129, -106.788676]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2010-09", "2011-04"]
+
+[graciosa]
+location = "Graciosa Island"
+coordinates = [39.091094, -28.029167]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2009-10", "2010-12"]
+
+[shouxian]
+location = "Shouxian"
+coordinates = [32.558383, 116.781950]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2008-06", "2008-12"]
+
+[blackforrest]
+location = "Black Forest"
+coordinates = [48.540050, 8.396867]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2007-01", "2008-01"]
+
+[niamey]
+location = "Niamey"
+coordinates = [13.477542, 2.174339]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2005-09", "2007-01"]
+
+[pointreyes]
+location = "Point Reyes"
+coordinates = [38.091000, -122.957167]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = ["2005-02", "2005-09"]
+
+[summit]
+location = "Summit Station"
+coordinates = [72.58, -38.46]
+institution = "ARM_ext"
+network = "ARM_ext"
+duration = ["2010-06", "2016-05"]
+
+[macca]
+location = "Macquarie Island"
+coordinates = [-54.64, 158.86]
+institution = "ARM_ext"
+network = "ARM_ext"
+duration = ["2016-01", "2016-10"]
+
+[cruise1]
+location = "Los Angeles - Honolulu"
+coordinates = [25.04, -146.67]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2012-10", "2013-09"]
+
+[cruise2]
+location = "Perl Harbor - San Francisco"
+coordinates = [30.246080, -128.970080]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2015-01", "2015-02"]
+
+[marcus]
+location = "Hobart - Ant"
+coordinates = [-56.75, 140.37]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = ["2017-09", "2018-04"]
