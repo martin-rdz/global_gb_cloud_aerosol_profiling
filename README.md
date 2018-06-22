@@ -2,7 +2,8 @@
 
 Overview of stations where ground-based profiling of clouds and aerosols with at least a cloud radar (Ka or W Band) and a collocated lidar is performed.
 A similar overview was for example given by Bühl [2017]. In this version a plot with the months of observations summed over a gridbox is provided.
-The underlying data is mostly from the [cloudnet](http://cloudnet.fmi.fi/) and [ARM](https://www.arm.gov/) websites.
+The numbers are colored blue for more than 12 months and red for more than 120 months of observations per gridbox.
+The underlying data is mostly from the [cloudnet](http://cloudnet.fmi.fi/) and [ARM](https://www.arm.gov/) websites. Hence, the statistics only consideres openly accessible datasets.
 
 In case of any additions, errors or comments your feedback is appreciated.
 
@@ -14,8 +15,8 @@ In case of any additions, errors or comments your feedback is appreciated.
 
 ![](map_profiling_observations_month_sum.png)
 
-
 ![](map_sites_world.png)
 
+![](map_profiling_observations_month_sum_network.png)
 
 ![](map_sites_europe.png)
