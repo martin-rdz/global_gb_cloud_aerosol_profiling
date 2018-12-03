@@ -12,6 +12,7 @@ In case of any additions, errors or comments your feedback is appreciated.
 
 
 ## Plots
+![](map_profiling_observations_month_sum_cluster.png)
 
 ![](map_profiling_observations_month_sum.png)
 
