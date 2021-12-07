@@ -224,7 +224,7 @@ location = "Punta Arenas"
 coordinates = [-53.1346, -70.8834]
 institution = "TROPOS"
 network = "cloudnet"
-duration = ["2018-11-27", "0"]
+duration = ["2018-11-27", "2021-12-01"]
 
 [davos]
 location = "Davos"
@@ -242,6 +242,7 @@ duration = ["2019-01-23", "2019-03-03"]
 
 
 # ARM Fixed sites
+#clustered with graciosa
 [ENA]
 location = "Eastern North Atlantic"
 coordinates = [39.091578, -28.025650]
@@ -353,6 +354,7 @@ institution = "AMF2"
 network = "ARM_mobile"
 duration = ["2010-09", "2011-04"]
 
+# clustered with ENA
 [graciosa]
 location = "Graciosa Island"
 coordinates = [39.091094, -28.029167]
@@ -393,7 +395,7 @@ location = "Summit Station"
 coordinates = [72.58, -38.46]
 institution = "ARM_ext"
 network = "ARM_ext"
-duration = ["2010-06", "2016-05"]
+duration = ["2010-09-01", "2021-06-01"]
 
 [MICRE]
 location = "Macquarie Island"
@@ -404,14 +406,14 @@ duration = ["2016-03", "2017-04"]
 
 [cruise1]
 location = "Los Angeles - Honolulu"
-coordinates = [25.04, -146.67]
+coordinates = [26.04, -140.67]
 institution = "AMF2"
 network = "ARM_mobile"
 duration = ["2012-10", "2013-09"]
 
 [cruise2]
 location = "Perl Harbor - San Francisco"
-coordinates = [30.246080, -128.970080]
+coordinates = [29.246080, -135.970080]
 institution = "AMF2"
 network = "ARM_mobile"
 duration = ["2015-01", "2015-02"]
