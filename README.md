@@ -18,12 +18,27 @@ The threshold (keyword `eps`) is set to 1000 km.
 
 
 ## Plots
+
+### Clustered sum of observations
+
+![](map_profiling_observations_month_sum_cluster_robin.png)
+
 ![](map_profiling_observations_month_sum_cluster.png)
+
+### Timeseries
+
+![](time_series.png)
+
+![](time_series_lat_bins.png)
+
+### Gridded sum of observations
 
 ![](map_profiling_observations_month_sum.png)
 
-![](map_sites_world.png)
-
 ![](map_profiling_observations_month_sum_network.png)
+
+### Locations per network
+
+![](map_sites_world.png)
 
 ![](map_sites_europe.png)
