@@ -5,131 +5,131 @@ location = "Leipzig"
 coordinates = [51.353410, 12.434639]
 institution = "TROPOS"
 network = "cloudnet"
-duration = ["2011-08-11", "2016-04-05"]
-[leipzig2]
+duration = [['2011-08-11', '2011-12-31'], ['2012-01-16', '2012-03-05'], ['2012-03-20', '2013-01-09'], ['2013-02-27', '2013-03-15'], ['2013-06-08', '2013-09-02'], ['2013-11-05', '2014-04-20'], ['2014-05-06', '2014-05-06'], ['2014-07-01', '2014-08-10'], ['2014-11-26', '2014-12-19'], ['2015-02-02', '2015-04-02'], ['2015-10-22', '2015-10-27'], ['2015-11-21', '2016-04-05'], ['2018-04-28', '2018-09-04'], ['2018-11-28', '2018-11-29'], ['2022-03-28', '2022-12-01'], ['2023-03-06', '2023-11-10'], ['2024-04-23', '0']]
+
+
+[leipzig-lim]
 location = "Leipzig"
 coordinates = [51.353410, 12.434639]
-institution = "TROPOS"
+institution = "LIM"
 network = "cloudnet"
-duration = ["2018-04-28", "2018-09-04"]
+duration = [['2020-12-07', '2022-03-09'], ['2023-10-04', '2023-10-23'], ['2023-11-13', '2023-11-23']]
 
 [lindenberg]
 location = "Lindenberg"
 coordinates = [52.2105, 14.13]
 institution = "DWD"
 network = "cloudnet"
-duration = ["2004-04-01", "0"]
+duration = [['2004-04-01', '2004-04-28'], ['2004-05-13', '2004-07-26'], ['2004-08-31', '2006-11-30'], ['2006-12-31', '2009-12-28'], ['2010-03-06', '2012-01-12'], ['2012-05-29', '2012-09-04'], ['2012-09-20', '2017-06-28'], ['2017-07-26', '2018-12-16'], ['2019-02-26', '2020-02-15'], ['2020-06-19', '0']]
 
 [juelich]
 location = "Jülich"
 coordinates = [50.9086, 6.4134]
 institution = "IGMK"
 network = "cloudnet"
-duration = ["2010-08-21", "0"]
+duration = [['2010-08-21', '2010-12-07'], ['2011-02-26', '2011-02-27'], ['2011-04-08', '2011-06-11'], ['2011-08-02', '2011-08-22'], ['2011-09-14', '2011-11-07'], ['2012-03-13', '2017-01-03'], ['2017-10-05', '2020-04-14'], ['2020-05-28', '2021-02-03'], ['2021-03-01', '2022-04-06'], ['2022-06-28', '0']]
 
 [chilbolton]
 location = "Chilbolton"
 coordinates = [51.144445, -1.438747]
 institution = "CFARR"
 network = "cloudnet"
-duration = ["1999-05", "0"]
+#duration = [["1999-05", "0"]]
+duration = [['1999-05-01', '2000-01-12'], ['2000-04-26', '2000-10-17'], ['2003-04-11', '2004-08-18'], ['2004-09-03', '2004-09-21'], ['2005-03-23', '2005-06-16'], ['2006-06-22', '2006-09-16'], ['2006-10-04', '2007-04-03'], ['2007-04-23', '2007-06-17'], ['2007-07-03', '2007-09-04'], ['2007-10-06', '2007-10-21'], ['2007-11-05', '2008-05-31'], ['2008-09-01', '2008-10-23'], ['2008-12-04', '2009-03-01'], ['2009-04-06', '2010-05-25'], ['2010-06-17', '2011-11-27'], ['2012-07-10', '2012-09-10'], ['2012-10-01', '2012-12-31'], ['2013-02-14', '2013-06-30'], ['2013-08-17', '2013-12-26'], ['2014-01-10', '2014-04-15'], ['2016-02-16', '2016-11-29'], ['2017-01-04', '2017-05-01'], ['2017-05-16', '2018-06-27'], ['2018-07-24', '2018-10-30'], ['2018-11-23', '2019-03-02'], ['2020-02-24', '2020-05-31'], ['2020-10-16', '2021-02-05'], ['2021-03-17', '2021-03-21'], ['2021-04-22', '2022-10-20'], ['2022-11-08', '0']]
 
 [cabauw]
 location = "Cabauw"
 coordinates = [51.970383, 4.926250]
 institution = "Ceasar"
 network = "cloudnet"
-duration = ["2001-08-08", "0"]
+duration = [['2001-08-08', '2001-08-18'], ['2001-09-02', '2003-10-06'], ['2003-11-25', '2003-12-09'], ['2004-01-13', '2005-06-30'], ['2009-01-01', '2009-12-31'], ['2011-01-04', '2011-09-01'], ['2011-09-29', '2011-12-31'], ['2012-03-01', '2012-03-31'], ['2014-10-01', '2014-11-18'], ['2021-05-28', '2021-07-25'], ['2021-08-11', '2021-10-05'], ['2021-11-05', '2022-02-05'], ['2023-09-26', '2024-02-27'], ['2024-03-27', '2024-04-10'], ['2024-05-28', '2024-09-20']]
 
 [mace]
 location = "Mace-Head"
 coordinates = [53.33, -9.90399]
 institution = "NUI"
 network = "cloudnet"
-duration = ["2009-02-23", "0"]
+duration = [['2008-05-27', '2008-05-27'], ['2009-02-23', '2009-03-15'], ['2009-04-06', '2009-05-07'], ['2009-06-04', '2009-10-07'], ['2010-02-09', '2010-03-15'], ['2010-04-17', '2010-08-13'], ['2010-11-21', '2012-01-21'], ['2012-02-10', '2012-05-07'], ['2013-01-24', '2013-04-30'], ['2013-06-25', '2013-10-22'], ['2013-12-06', '2013-12-18'], ['2014-01-07', '2014-01-13'], ['2014-01-29', '2014-01-29'], ['2014-05-03', '2014-09-16'], ['2014-10-03', '2015-05-23'], ['2015-06-10', '2016-01-22'], ['2016-02-23', '2016-10-31'], ['2017-01-24', '2018-12-30'], ['2019-01-23', '2019-08-06'], ['2020-07-01', '2021-09-30'], ['2022-04-20', '2022-07-08'], ['2023-05-07', '2023-09-28'], ['2023-12-15', '2023-12-17'], ['2024-01-18', '2024-04-23'], ['2024-08-09', '2024-08-13']]
 
 [palaiseau]
 location = "Palaiseau"
 coordinates = [48.714730, 2.217460]
 institution = "SIRTA"
 network = "cloudnet"
-duration = ["2003-01-06", "2004-09-13"]
-[palaiseau2]
-location = "Palaiseau"
-coordinates = [48.714730, 2.217460]
-institution = "SIRTA"
-network = "cloudnet"
-duration = ["2011-10-15", "0"]
+duration = [['2003-01-06', '2003-01-13'], ['2003-01-29', '2003-05-30'], ['2003-09-11', '2004-04-23'], ['2004-05-10', '2004-07-09'], ['2004-08-03', '2004-09-13'], ['2010-02-19', '2010-03-25'], ['2011-10-15', '2011-12-07'], ['2012-01-05', '2012-03-26'], ['2012-04-16', '2012-07-31'], ['2012-11-06', '2012-12-15'], ['2013-01-02', '2013-01-18'], ['2013-02-07', '2016-07-06'], ['2016-10-28', '2018-05-01'], ['2018-06-09', '2024-03-25'], ['2024-08-14', '0']]
 
 [potenza]
 location = "Potenza"
 coordinates = [40.60, 15.72]
 institution = "CNR-IMAA"
 network = "cloudnet"
-duration = ["2009-04-01", "0"]
+duration = [['2009-04-01', '2009-07-27'], ['2009-08-28', '2009-09-01'], ['2009-09-18', '2009-09-28'], ['2009-11-16', '2009-12-03'], ['2010-01-27', '2010-12-31'], ['2011-01-28', '2011-01-28'], ['2011-02-17', '2011-02-17'], ['2011-03-24', '2011-03-24'], ['2011-04-26', '2011-04-27'], ['2011-06-10', '2011-08-27'], ['2011-09-24', '2012-02-01'], ['2012-07-17', '2012-11-11'], ['2013-04-11', '2014-09-12'], ['2014-10-03', '2015-03-30'], ['2015-05-19', '2015-07-05'], ['2016-03-30', '2016-06-02'], ['2016-07-06', '2016-07-08'], ['2016-09-27', '2017-02-02'], ['2017-03-06', '2017-03-16'], ['2017-05-10', '2017-10-28'], ['2017-11-14', '2018-03-22'], ['2018-04-10', '2018-05-22'], ['2023-07-01', '0']]
 
 [sodankyla]
 location = "Sodankyla"
 coordinates = [67.363152, 26.641922]
 institution = "FMI"
 network = "cloudnet"
-duration = ["2012-05-23", "2014-05-11"]
+duration = [['2012-05-23', '2012-10-26'], ['2013-01-19', '2013-01-19'], ['2013-02-12', '2013-06-24'], ['2013-07-12', '2014-05-11']]
 
 [hyytiaelae_cloudnet]
 location = "Hyytiälä"
 coordinates = [61.843536, 24.287847]
 institution = "FMI"
 network = "cloudnet"
-duration = ["2016-11-26", "0"]
+duration = [['2016-11-26', '2017-06-14'], ['2017-11-02', '2017-11-09'], ['2018-01-07', '2019-01-04'], ['2019-01-21', '2019-02-07'], ['2019-03-12', '2020-09-09'], ['2020-11-24', '2021-02-20'], ['2021-03-10', '2021-08-23'], ['2021-11-18', '0']]
 
 [munich]
 location = "Munich"
 coordinates = [48.15, 10.98]
-institution = "DRL"
+institution = "UMunich, DRL"
 network = "cloudnet"
-duration = ["2017-01-01", "0"]
+duration = [['2017-01-01', '2017-12-26'], ['2018-01-18', '2019-06-13'], ['2019-08-01', '2020-05-14'], ['2020-06-03', '2021-02-12'], ['2021-04-02', '2022-07-06'], ['2022-07-26', '0']]
+
 
 [barbados]
 location = "Deebles Point"
 coordinates = [13.162317, -59.428562]
 institution = "MPI-M"
 network = "cloudnet"
-duration = ["2016-01", "0"]
+duration = [["2016-01", "0"]]
 
 [schneeferner]
 location = "Schneefernerhaus"
 coordinates = [47.42, 10.98]
 institution = "SRS"
 network = "cloudnet"
-duration = ["2012-03-01", "0"]
+duration =  [['2012-01-01', '2012-06-22'], ['2012-07-31', '2012-12-21'], ['2013-06-20', '2015-05-11'], ['2015-06-03', '2015-08-19'], ['2015-09-05', '2015-11-02'], ['2015-11-25', '2016-01-14'], ['2016-07-21', '2016-08-07'], ['2016-11-24', '2017-01-27'], ['2017-04-05', '2019-02-05'], ['2019-03-26', '2019-05-05'], ['2019-11-01', '2020-10-11'], ['2020-10-27', '2023-06-22'], ['2024-01-17', '2024-08-13'], ['2024-09-14', '0']]
+
 
 [granada]
 location = "Granada"
 coordinates = [37.16, -3.61]
 institution = "UGran"
 network = "cloudnet"
-duration = ["2018-04-23", "0"]
+duration = [['2018-04-23', '2018-04-25'], ['2018-06-28', '2018-10-22'], ['2018-11-29', '2018-11-30'], ['2019-03-20', '2019-07-02'], ['2019-09-10', '2021-10-13'], ['2021-12-13', '2022-06-14'], ['2022-07-11', '2022-07-12'], ['2022-08-04', '2022-10-12'], ['2022-11-10', '2022-12-10'], ['2022-12-26', '2023-01-04'], ['2023-01-21', '2023-01-21'], ['2023-02-24', '0']]
 
 [norunda]
 location = "Norunda"
 coordinates = [60.1, 17.5]
 institution = "ICOS"
 network = "cloudnet"
-duration = ["2019-04-01", "0"]
+duration = [['2019-03-11', '2020-06-09'], ['2020-08-19', '2020-08-20'], ['2020-09-08', '2023-10-04'], ['2024-04-30', '2024-07-03'], ['2024-08-05', '0']]
 
 [bucharest]
 location = "Bucharest"
 coordinates = [44.348, 26.029]
 institution = "INOE"
 network = "cloudnet"
-duration = ["2019-04-29", "0"]
+duration = [['2019-04-29', '2019-08-09'], ['2019-10-10', '2019-10-10'], ['2019-11-20', '2021-09-21'], ['2021-11-10', '2024-06-10'], ['2024-07-04', '2024-08-23'], ['2024-09-09', '0']]
+
 
 [mindelo]
 location = "Mindelo"
 coordinates = [16.878, -24.995]
 institution = "TROPOS,INOE"
 network = "cloudnet"
-duration = ["2021-09-10", "0"]
+duration = [['2021-09-09', '2021-12-17'], ['2022-01-04', '2022-05-03'], ['2022-05-19', '2022-07-26'], ['2022-08-19', '2022-08-20'], ['2022-09-07', '2022-09-23'], ['2023-09-29', '2024-05-26'], ['2024-06-23', '2024-09-30']]
 
 
 ## the cloudnet campaigns 
@@ -139,33 +139,29 @@ location = "Ny-Ålesund"
 coordinates = [78.925259, 11.913133]
 institution = "IGMK"
 network = "cloudnet"
-duration = ["2016-06-10", "0"]
+duration = [['2016-06-10', '2018-10-08'], ['2019-06-12', '0']]
+
+[mod-lyneham]
+location = "MOD Lyneham"
+coordinates = [51.509, -1.999]
+institution = "?"
+network = "cloudnet"
+duration = [['2023-06-08', '2023-09-06']]
+
 
 [cyprus]
 location = "Limassol"
 coordinates = [34.681573, 33.032084]
-institution = "TROPOS"
+institution = "TROPOS, CUT"
 network = "cloudnet"
-duration = ["2016-10-19", "2018-03-25"]
+duration = [['2016-10-19', '2018-03-25'], ['2024-06-26', '0']]
 
-[Kenttarova1]
+[Kenttarova]
 location = "Kenttarova"
 coordinates = [67.971146, 24.178303]
 institution = "FMI"
 network = "cloudnet"
-duration = ["2015-10-06", "2015-12-08"]
-[Kenttarova2]
-location = "Kenttarova"
-coordinates = [67.971146, 24.178303]
-institution = "FMI"
-network = "cloudnet"
-duration = ["2017-08-23", "2017-12-19"]
-[Kenttarova3]
-location = "Kenttarova"
-coordinates = [67.971146, 24.178303]
-institution = "FMI"
-network = "cloudnet"
-duration = ["2019-10-27", "2019-12-25"]
+duration = [['2015-10-06', '2015-12-08'], ['2017-08-23', '2017-09-01'], ['2017-09-28', '2017-10-11'], ['2017-11-07', '2017-12-19'], ['2019-10-27', '2019-12-25'], ['2022-08-23', '2023-05-13'], ['2023-06-01', '2023-06-03'], ['2023-06-23', '2023-11-26']]
 
 
 [finland2]
@@ -173,7 +169,7 @@ location = "Vehmasmaki"
 coordinates = [62.733369, 27.555418]
 institution = "FMI"
 network = "cloudnet"
-duration = ["2014-11-06", "2016-10-28"]
+duration = [['2014-11-06', '2015-01-19'], ['2015-04-21', '2015-08-11'], ['2016-01-20', '2016-04-20'], ['2016-05-13', '2016-10-28'], ['2022-06-20', '2022-07-06'], ['2022-07-27', '2022-08-22'], ['2023-01-26', '2023-04-04'], ['2024-04-16', '2024-05-04'], ['2024-06-19', '2024-07-11'], ['2024-07-30', '0']]
 
 
 [savilahti]
@@ -181,7 +177,7 @@ location = "Savilahti"
 coordinates = [62.890, 27.631]
 institution = "FMI"
 network = "cloudnet"
-duration = ["2020-09-10", "2020-11-23"]
+duration = [["2020-09-10", "2020-11-23"]]
 
 #[savonlinna]
 #location = "Savonlinna"
@@ -203,43 +199,85 @@ location = "Weybourne"
 coordinates = [52.95, 1.12]
 institution = "CFARR"
 network = "cloudnet"
-duration = ["2017-03-08", "2017-07-03"]
+duration = [["2017-03-08", "2017-07-03"]]
 
 [finokalia]
 location = "Finokalia"
 coordinates = [35.34, 25.67]
 institution = ""
 network = "cloudnet"
-duration = ["2017-04-03", "2017-04-27"]
+duration = [["2017-04-03", "2017-04-27"]]
+
+
+[lampedusa]
+location = "Lampedusa"
+coordinates = [35.520, 12.630]
+institution = ""
+network = "cloudnet"
+duration = [['2024-01-01', '0']]
 
 [iquique]
 location = "Iquique"
 coordinates = [-20.54, -70.18]
 institution = "UCologne"
 network = "cloudnet"
-duration = ["2018-03-26", "2019-01-23"]
+duration = [['2018-03-26', '2018-05-28'], ['2018-07-09', '2019-01-23']]
 
 [punta-arenas]
 location = "Punta Arenas"
 coordinates = [-53.1346, -70.8834]
 institution = "TROPOS"
 network = "cloudnet"
-duration = ["2018-11-27", "2021-12-01"]
+duration = [['2018-11-27', '2019-11-05'], ['2019-12-06', '2021-11-30']]
 
 [davos]
 location = "Davos"
 coordinates = [46.836, 9.854]
 institution = "TROPOS"
 network = "cloudnet"
-duration = ["2019-02-10", "2019-03-22"]
+duration = [["2019-02-10", "2019-03-22"]]
+
+[eriswil]
+location = "Eriswil"
+coordinates = [47.071, 7.873]
+institution = "TROPOS, ETH"
+network = "cloudnet"
+duration = [['2022-02-18', '2022-04-05'], ['2022-12-11', '2023-02-27'], ['2023-11-25', '2024-03-05']]
 
 [maido]
 location = "Maido Observatory"
 coordinates = [-21.079, 55.383]
 institution = "French"
 network = "cloudnet"
-duration = ["2019-01-23", "2019-03-03"]
+duration = [["2019-01-23", "2019-03-03"]]
 
+[galati]
+location = "Galati"
+coordinates = [45.435, 28.037]
+institution = "?"
+network = "cloudnet"
+duration = [['2022-02-28', '0']]
+
+[neumayer]
+location = "Neumayer"
+coordinates = [-70.660, -8.284]
+institution = "TROPOS, AWI"
+network = "cloudnet"
+duration = [['2023-01-15', '0']]
+
+[rzecin]
+location = "Rzecin"
+coordinates = [52.758, 16.310]
+institution = ""
+network = "cloudnet"
+duration = [['2023-12-04', '2023-12-21'], ['2024-01-05', '2024-02-19'], ['2024-06-07', '2024-09-04']]
+
+[soverato]
+location = "Soverato"
+coordinates = [38.690, 16.545]
+institution = ""
+network = "cloudnet"
+duration = [['2021-06-24', '2021-09-07']]
 
 # ARM Fixed sites
 #clustered with graciosa
@@ -248,21 +286,21 @@ location = "Eastern North Atlantic"
 coordinates = [39.091578, -28.025650]
 institution = "ARM"
 network = "ARM"
-duration = ["2015-07", "0"]
+duration = [["2015-07", "0"]]
 
 [TWP1]
 location = "Tropical Western Pacific Manus"
 coordinates = [-2.061011, 147.425397]
 institution = "ARM"
 network = "ARM"
-duration = ["1996-06", "2014-07"]
+duration = [["1996-06", "2014-07"]]
 
 [TWP2]
 location = "Tropical Western Pacific Naru"
 coordinates = [-0.521000, 166.916000]
 institution = "ARM"
 network = "ARM"
-duration = ["1998-10", "2009-02"]
+duration = [["1998-10", "2009-02"]]
 
 [TWP3]
 location = "Tropical Western Pacific Darwin"
@@ -270,7 +308,7 @@ coordinates = [-12.424600, 130.891597]
 institution = "ARM"
 network = "ARM"
 #duration = ["2002-03", "2015-01"]
-duration = ["2005-01-01", "2013-12-31"]
+duration = [['2005-01-01', '2006-09-25'], ['2006-12-01', '2011-06-13'], ['2011-10-06', '2013-12-31']]
 
 
 [SGP]
@@ -278,14 +316,14 @@ location = "Southern Great Plains"
 coordinates = [36.605000, -97.485000]
 institution = "ARM"
 network = "ARM"
-duration = ["1997-06-18", "0"]
+duration = [["1997-06-18", "0"]]
 
 [NSA]
 location = "North Slope of Alaska"
 coordinates = [71.323258, -156.615750]
 institution = "ARM"
 network = "ARM"
-duration = ["1998-03", "0"]
+duration = [["1998-03", "0"]]
 
 # ARM_mobile campaigns
 
@@ -295,7 +333,7 @@ coordinates = [-7.966964, -14.349806]
 institution = "AMF1"
 network = "ARM_mobile"
 #duration = ["2016-06", "2017-10"]
-duration = ["2016-10-13", "2017-02-27"]
+duration = [["2016-10-13", "2017-02-27"]]
 
 
 [mcmurdo]
@@ -303,56 +341,56 @@ location = "McMurdo"
 coordinates = [-77.849611, 166.728444]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2015-12-01", "2016-12-29"]
+duration = [["2015-12-01", "2016-12-29"]]
 
 [hyytiaelae]
 location = "Hyytiälä"
 coordinates = [61.843536, 24.287847]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2014-02-02", "2014-09-09"]
+duration = [["2014-02-02", "2014-09-09"]]
 
 [manacapuru]
 location = "Manacapuru"
 coordinates = [-3.212972, -60.598056]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2014-01", "2015-11"]
+duration = [["2014-01", "2015-11"]]
 
 [oliktok]
 location = "Oliktok Point"
 coordinates = [70.495247, -149.886883]
 institution = "AMF3"
 network = "ARM_mobile"
-duration = ["2015-08", "0"]
+duration = [["2015-08", "0"]]
 
 [capecod]
 location = "Cape Cod"
 coordinates = [41.664059, -70.242290]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2012-10-12", "2013-03-31"]
+duration = [["2012-10-12", "2013-03-31"]]
 
 [maldives]
 location = "Gan Island, Maldives"
 coordinates = [-0.694149, 73.152771]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2011-10-08", "2012-02-07"]
+duration = [["2011-10-08", "2012-02-07"]]
 
 [ganges]
 location = "Ganges Valley"
 coordinates = [29.359400, 79.458131]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2011-05", "2012-03"]
+duration = [["2011-05", "2012-03"]]
 
 [steamboat]
 location = "Steamboat Springs"
 coordinates = [40.455129, -106.788676]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2010-09", "2011-04"]
+duration = [["2010-09", "2011-04"]]
 
 # clustered with ENA
 [graciosa]
@@ -360,91 +398,93 @@ location = "Graciosa Island"
 coordinates = [39.091094, -28.029167]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2009-10", "2010-12"]
+duration = [["2009-10", "2010-12"]]
+# [['2015-07-17', '2019-12-19']]
 
 [shouxian]
 location = "Shouxian"
 coordinates = [32.558383, 116.781950]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2008-06", "2008-12"]
+duration = [["2008-06", "2008-12"]]
 
 [blackforest]
 location = "Black Forest"
 coordinates = [48.540050, 8.396867]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2007-04-02", "2007-12-31"]
+duration = [["2007-04-02", "2007-12-31"]]
 
 [niamey]
 location = "Niamey"
 coordinates = [13.477542, 2.174339]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2005-09", "2007-01"]
+duration = [["2005-09", "2006-12-29"]]
 
 [pointreyes]
 location = "Point Reyes"
 coordinates = [38.091000, -122.957167]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2005-02", "2005-09"]
+duration = [["2005-02", "2005-09"]]
 
 [summit]
 location = "Summit Station"
 coordinates = [72.58, -38.46]
 institution = "ARM_ext"
 network = "ARM_ext"
-duration = ["2010-09-01", "2021-06-01"]
+#duration = [["2010-09-01", "2021-06-01"]]
+duration = [["2010-09-01", "2012-04-01"], ['2012-04-09', '2014-06-05'], ['2014-08-19', '2014-08-29'], ['2014-11-12', '2018-01-03'], ['2018-02-08', '2018-03-21'], ['2018-04-27', '2018-08-14'], ["2018-08-16", "2021-06-01"]]
 
 [MICRE]
 location = "Macquarie Island"
 coordinates = [-54.64, 158.86]
 institution = "ARM_ext"
 network = "ARM_ext"
-duration = ["2016-03", "2017-04"]
+duration = [["2016-03", "2017-04"]]
 
 [cruise1]
 location = "Los Angeles - Honolulu"
 coordinates = [26.04, -140.67]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2012-10", "2013-09"]
+duration = [["2012-10", "2013-09"]]
 
 [cruise2]
 location = "Perl Harbor - San Francisco"
 coordinates = [29.246080, -135.970080]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2015-01", "2015-02"]
+duration = [["2015-01", "2015-02"]]
 
 [marcus]
 location = "Hobart - Ant"
 coordinates = [-56.75, 140.37]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2016-10", "2017-03"]
+duration = [["2016-10", "2017-03"]]
 
 [capricorn]
 location = "Hobart - Ant"
 coordinates = [-50.0, 160.0]
 institution = "ARM_ext"
 network = "ARM_ext"
-duration = ["2016-03-13", "2016-04-15"]
+duration = [["2016-03-13", "2016-04-15"]]
 
 [capricorn2]
 location = "Hobart - Ant"
 coordinates = [-50.0, 160.0]
 institution = "ARM_ext"
 network = "ARM_ext"
-duration = ["2018-01-11", "2018-02-21"]
+duration = [["2018-01-11", "2018-02-21"]]
 
 [cacti]
 location = "Cordoba"
 coordinates = [-32.12, -64.72]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2018-10", "2019-04"]
+duration = [["2018-10", "2019-04"]]
 #duration = ["2018-10", "0"]
 
 [mosaic]
@@ -453,11 +493,41 @@ coordinates = [85, 30]
 # check if it acutally was AMF2
 institution = "AMF2"
 network = "ARM_mobile"
-duration = ["2019-10", "2020-09"]
+duration = [['2019-10-11', '2020-09-30']]
 
 [combal]
 location = "Andoya"
 coordinates = [69.141, 15.684]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = ["2019-12-01", "2020-03-21"]
+duration = [["2019-12-01", "2020-03-21"]]
+
+# added in 2024
+[sail]
+location = "Gunnison"
+coordinates = [38.96, -106.99]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = [["2021-09-01", "2023-06-15"]]
+
+[tracer]
+location = "Houston"
+coordinates = [29.670, -95.059]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = [["2021-10", "2022-09"]]
+
+[escape]
+location = "La Jolla"
+coordinates = [35.867, -117.257]
+institution = "AMF1"
+network = "ARM_mobile"
+duration = [["2023-02-15", "2024-02-14"]]
+
+[cape-k]
+location = "Kennaook"
+coordinates = [-40.68, 144.69]
+institution = "AMF2"
+network = "ARM_mobile"
+duration = [["2024-04-15", "0"]]
+#duration = ["2024-04-15", "2025-09-15"]
