@@ -327,7 +327,7 @@ duration = [["1998-03", "0"]]
 
 # ARM_mobile campaigns
 
-[ascension]
+[lasic]
 location = "Ascension Island"
 coordinates = [-7.966964, -14.349806]
 institution = "AMF1"
@@ -336,21 +336,21 @@ network = "ARM_mobile"
 duration = [["2016-10-13", "2017-02-27"]]
 
 
-[mcmurdo]
+[aware]
 location = "McMurdo"
 coordinates = [-77.849611, 166.728444]
 institution = "AMF2"
 network = "ARM_mobile"
 duration = [["2015-12-01", "2016-12-29"]]
 
-[hyytiaelae]
+[baecc]
 location = "Hyytiälä"
 coordinates = [61.843536, 24.287847]
 institution = "AMF2"
 network = "ARM_mobile"
 duration = [["2014-02-02", "2014-09-09"]]
 
-[manacapuru]
+[goamazon]
 location = "Manacapuru"
 coordinates = [-3.212972, -60.598056]
 institution = "AMF1"
@@ -362,9 +362,9 @@ location = "Oliktok Point"
 coordinates = [70.495247, -149.886883]
 institution = "AMF3"
 network = "ARM_mobile"
-duration = [["2015-08", "0"]]
+duration = [["2015-08", "2021-06-15"]]
 
-[capecod]
+[tcap]
 location = "Cape Cod"
 coordinates = [41.664059, -70.242290]
 institution = "AMF1"
@@ -378,14 +378,15 @@ institution = "AMF2"
 network = "ARM_mobile"
 duration = [["2011-10-08", "2012-02-07"]]
 
-[ganges]
-location = "Ganges Valley"
-coordinates = [29.359400, 79.458131]
-institution = "AMF1"
-network = "ARM_mobile"
-duration = [["2011-05", "2012-03"]]
+#[gvax]
+#location = "Ganges Valley"
+#coordinates = [29.359400, 79.458131]
+#institution = "AMF1"
+#network = "ARM_mobile"
+#duration = [["2011-05", "2012-03"]]
+# no radar
 
-[steamboat]
+[stormvex]
 location = "Steamboat Springs"
 coordinates = [40.455129, -106.788676]
 institution = "AMF2"
@@ -393,7 +394,7 @@ network = "ARM_mobile"
 duration = [["2010-09", "2011-04"]]
 
 # clustered with ENA
-[graciosa]
+[cap-mbl]
 location = "Graciosa Island"
 coordinates = [39.091094, -28.029167]
 institution = "AMF1"
@@ -401,35 +402,36 @@ network = "ARM_mobile"
 duration = [["2009-10", "2010-12"]]
 # [['2015-07-17', '2019-12-19']]
 
-[shouxian]
+[aerosolindirect]
 location = "Shouxian"
 coordinates = [32.558383, 116.781950]
 institution = "AMF1"
 network = "ARM_mobile"
 duration = [["2008-06", "2008-12"]]
 
-[blackforest]
+[cops]
 location = "Black Forest"
 coordinates = [48.540050, 8.396867]
 institution = "AMF1"
 network = "ARM_mobile"
 duration = [["2007-04-02", "2007-12-31"]]
 
-[niamey]
+[radagast]
 location = "Niamey"
 coordinates = [13.477542, 2.174339]
 institution = "AMF1"
 network = "ARM_mobile"
 duration = [["2005-09", "2006-12-29"]]
 
-[pointreyes]
-location = "Point Reyes"
-coordinates = [38.091000, -122.957167]
-institution = "AMF1"
-network = "ARM_mobile"
-duration = [["2005-02", "2005-09"]]
+#[masradiop]
+#location = "Point Reyes"
+#coordinates = [38.091000, -122.957167]
+#institution = "AMF1"
+#network = "ARM_mobile"
+#duration = [["2005-02", "2005-09"]]
+#no radar
 
-[summit]
+[icecaps]
 location = "Summit Station"
 coordinates = [72.58, -38.46]
 institution = "ARM_ext"
@@ -437,33 +439,33 @@ network = "ARM_ext"
 #duration = [["2010-09-01", "2021-06-01"]]
 duration = [["2010-09-01", "2012-04-01"], ['2012-04-09', '2014-06-05'], ['2014-08-19', '2014-08-29'], ['2014-11-12', '2018-01-03'], ['2018-02-08', '2018-03-21'], ['2018-04-27', '2018-08-14'], ["2018-08-16", "2021-06-01"]]
 
-[MICRE]
+[micre]
 location = "Macquarie Island"
 coordinates = [-54.64, 158.86]
 institution = "ARM_ext"
 network = "ARM_ext"
 duration = [["2016-03", "2017-04"]]
 
-[cruise1]
+[magic]
 location = "Los Angeles - Honolulu"
 coordinates = [26.04, -140.67]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = [["2012-10", "2013-09"]]
+duration = [["2013-05-24", "2013-08-13"]]
 
-[cruise2]
-location = "Perl Harbor - San Francisco"
+[acapex]
+location = "Pearl Harbor - San Francisco"
 coordinates = [29.246080, -135.970080]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = [["2015-01", "2015-02"]]
+duration = [["2015-01-14", "2015-02-12"]]
 
 [marcus]
 location = "Hobart - Ant"
 coordinates = [-56.75, 140.37]
 institution = "AMF2"
 network = "ARM_mobile"
-duration = [["2016-10", "2017-03"]]
+duration = [["2017-11", "2018-03"]]
 
 [capricorn]
 location = "Hobart - Ant"
@@ -484,12 +486,13 @@ location = "Cordoba"
 coordinates = [-32.12, -64.72]
 institution = "AMF1"
 network = "ARM_mobile"
-duration = [["2018-10", "2019-04"]]
+duration = [["2018-09-23", "2019-04-30"]]
 #duration = ["2018-10", "0"]
 
 [mosaic]
 location = "MOSAiC"
 coordinates = [85, 30]
+#coordinates = [87.619, 118.113]
 # check if it acutally was AMF2
 institution = "AMF2"
 network = "ARM_mobile"
